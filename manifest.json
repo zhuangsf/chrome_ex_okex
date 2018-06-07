@@ -1,0 +1,17 @@
+{
+   "content_scripts": [ {
+      "js": [ "okex.vote.index.js" ],
+      "matches": [ "https://www.okex.com/vote/index" ]
+   }, {
+      "js": [ "okex.vote.record.js" ],
+      "matches": [ "https://www.okex.com/vote/record" ]
+   }, {
+      "js": [ "okex.vote.wallet.js" ],
+      "matches": [ "https://www.okex.com/account/balance/wallet" ]
+   } ],
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC+yCfcdgTzs5z9Vz/BFh9jVvHw8SGwbCZpvhYkNKDK0sNJkoK2CzX0R4smU+nymAKs9l9aBDmScp8CZTAfGgST5Df7dGTl8All2ydTqCYBnG/bucNhzhVYy6ICjkA82+yzL3xa4K97emFFVHIqztF1zmbpX/qgzix4K1TKE5nsbwIDAQAB",
+   "manifest_version": 2,
+   "name": "Okex Vote",
+   "version": "1.0",
+   "web_accessible_resources": [ "*.js", "*.css", "*.jpg" ]
+}
