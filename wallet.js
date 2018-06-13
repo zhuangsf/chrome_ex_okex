@@ -83,6 +83,7 @@ docReady(function() {
 	setTimeout(change,1000);
 });
 
+
 function change(){
 	console.log("hello wallet"+$("tr.index-row").eq(3).children().eq(1).text());
 	$("tr.index-row").eq(3).children().eq(1).text("6666.00000");
